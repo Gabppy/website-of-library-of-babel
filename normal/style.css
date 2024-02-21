@@ -1,0 +1,64 @@
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .content {
+    overflow: auto; /* Enable scrolling */
+    height: 100%;
+  }
+  
+
+    #myCanvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 110%; /* Make the canvas width twice the viewport width */
+        height: 110%; /* Make the canvas height twice the viewport height */
+    background-color: #FFFDF6;
+  }
+  
+  .text-container {
+    position: relative;
+    margin: 20px; /* Adjust as needed */
+    user-select: none;
+  }
+  
+
+
+p{
+    color: #e0d29f;
+font-size: 20pt;
+margin-left: 10pt;
+margin: 3cm;
+max-width: 30cm;
+
+}
+
+a{
+    color: #D3C7BC;
+        
+
+}
+
+a:visited{
+    color: red;
+}
+.container{
+    display:flex;
+  }
+
+  @media only screen and (max-width: 727px) {
+
+    p{
+        font-size: 15pt;
+        margin-left: 10pt;
+margin: 1cm;
+
+    }
+    
+
+    }

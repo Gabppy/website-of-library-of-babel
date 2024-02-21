@@ -1,0 +1,33 @@
+body{
+    background-color: #FFFAE1;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 18pt;
+    color: #80AB39;
+    text-align: center;
+   
+}
+.ga{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+img{
+    border:3pt solid #80AB39;
+    border-radius: 130px;
+    top: 100px; left: 100px; width: 100px; height: 100px;
+}
+
+@media only screen and (max-width: 727px) {
+
+h1{
+    font-size: 17pt;
+}
+
+}

@@ -1,0 +1,48 @@
+body {
+    cursor: help;
+    background-color: #ffffff;
+
+  }
+  
+  h1 {
+    font-size: 20pt;
+    color: #8a1a1a;
+    text-align: center;
+  }
+  
+
+  
+  
+  .ga {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+
+
+  
+  .container {
+    position: relative;
+  }
+  
+  .gif-image {
+    position: absolute;
+  }
+  
+
+  @media only screen and (max-width: 727px) {
+
+  h1{
+      font-size: 17pt;
+  }
+    
+    img{
+        margin-left: -4cm;
+        margin-top: -5cm;
+    }
+
+    }
